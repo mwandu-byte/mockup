@@ -48,18 +48,18 @@ const Projects = () => {
       live: null,
       tech: ['Node.js', 'Express', 'PostgreSQL', 'JWT', 'Multer'],
       category: 'backend',
-      date: '2022'
+      date: '2025'
     },
     {
       id: 5,
       title: 'Portfolio Website',
       description: 'A responsive portfolio website built with React and TailwindCSS, featuring dark mode, animations, and modern design.',
       image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop',
-      github: 'https://github.com/mwandui-byte/portfolio',
-      live: 'https://your-portfolio.com',
+      github: 'https://github.com/mwandui-byte/DevPortfolio',
+      live: 'https://mwaportifolio.netlify.app',
       tech: ['React', 'TailwindCSS', 'Framer Motion', 'Vite'],
       category: 'frontend',
-      date: '2023'
+      date: '2024'
     },
     {
       id: 6,
@@ -70,7 +70,7 @@ const Projects = () => {
       live: 'https://chat-app-demo.com',
       tech: ['React', 'Socket.io', 'Node.js', 'MongoDB', 'JWT'],
       category: 'fullstack',
-      date: '2022'
+      date: '2025'
     }
   ];
 
