@@ -29,8 +29,8 @@ const About = () => {
     {
       year: '2023 - 2025',
       title: 'Full Stack Developer',
-      company: 'SINCRAFT Company',
-      description: 'Built and maintained multiple web applications. Collaborated with cross-functional teams to deliver high-quality software solutions.'
+      company: 'SAINCRAFT Company',
+      description: 'Built and maintained multiple web applications. Collaborated with cross-functional teams to deliver high quality software solutions.'
     },
     {
       year: '2023 - 2024',
