@@ -4,36 +4,36 @@ import { Calendar, MapPin, Mail, Phone, GraduationCap, Briefcase } from 'lucide-
 
 const About = () => {
   const personalInfo = {
-    name: 'Your Name',
+    name: 'MESHACK MWANDU',
     title: 'Full Stack Software Developer',
-    email: 'your.email@example.com',
-    phone: '+1 (555) 123-4567',
-    location: 'San Francisco, CA',
-    education: 'Bachelor of Science in Computer Science',
+    email: 'mashakamwandu507@gmail.com',
+    phone: '+255686695288',
+    location: 'DODOMA KIKUYU',
+    education: 'Bachelor of Science in Information Technology',
     university: 'University of Technology',
-    experience: '5+ years',
+    experience: '3+ years',
   };
 
   const skills = [
-    'JavaScript/TypeScript', 'React.js', 'Node.js', 'Python', 'Java',
-    'SQL/NoSQL', 'AWS/Cloud', 'Docker', 'Git', 'Agile/Scrum'
+    'JavaScript/TypeScript','Vue.js', 'React.js', 'Node.js/Express', 'Python', 'Laravel','Java',
+    'SQL/NoSQL', 'AWS/Cloud', 'Docker', 'Git', 'Rest APIs/GraphQL'
   ];
 
   const experience = [
     {
-      year: '2022 - Present',
+      year: '2025 - Present',
       title: 'Senior Full Stack Developer',
-      company: 'Tech Company Inc.',
+      company: 'SAFCO FinTech Company ',
       description: 'Led development of scalable web applications using React and Node.js. Implemented CI/CD pipelines and mentored junior developers.'
     },
     {
-      year: '2020 - 2022',
+      year: '2023 - 2025',
       title: 'Full Stack Developer',
-      company: 'Startup XYZ',
+      company: 'SINCRAFT Company',
       description: 'Built and maintained multiple web applications. Collaborated with cross-functional teams to deliver high-quality software solutions.'
     },
     {
-      year: '2018 - 2020',
+      year: '2023 - 2024',
       title: 'Frontend Developer',
       company: 'Digital Agency',
       description: 'Developed responsive user interfaces and implemented modern web technologies. Worked on various client projects.'
@@ -42,9 +42,9 @@ const About = () => {
 
   const education = [
     {
-      year: '2014 - 2018',
-      degree: 'Bachelor of Science in Computer Science',
-      school: 'University of Technology',
+      year: '2023 - 2026',
+      degree: 'Bachelor of Science in Information Technology',
+      school: "St John's University of Tanzania",
       description: 'Graduated with honors. Specialized in software engineering and web development.'
     }
   ];
@@ -148,14 +148,14 @@ const About = () => {
               </h3>
               <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  I'm a passionate software developer with over 5 years of experience in building 
+                  I'm a passionate software developer with over 3 years of experience in building 
                   scalable web applications. My journey in technology began during my university 
                   years, where I discovered my love for problem-solving and creating innovative solutions.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
                   Throughout my career, I've worked on various projects ranging from small business 
                   websites to large-scale enterprise applications. I specialize in modern web 
-                  technologies including React, Node.js, and cloud platforms.
+                  technologies including React, Node.js, Laravel,vue.js Express and cloud platforms.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
                   When I'm not coding, you can find me contributing to open-source projects, 

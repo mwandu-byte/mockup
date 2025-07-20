@@ -1,11 +1,11 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { 
-  Code, 
-  Database, 
-  Server, 
-  Globe, 
-  Cloud, 
+import { color, motion } from 'framer-motion';
+import {
+  Code,
+  Database,
+  Server,
+  Globe,
+  Cloud,
   GitBranch,
   Zap,
   Layers
@@ -38,7 +38,7 @@ const Skills = () => {
         { name: 'Node.js', level: 88, icon: '🟢', color: 'bg-green-600' },
         { name: 'Express.js', level: 85, icon: '🚂', color: 'bg-gray-600' },
         { name: 'Python', level: 80, icon: '🐍', color: 'bg-blue-500' },
-        { name: 'Java', level: 75, icon: '☕', color: 'bg-red-500' },
+        { name: 'Laravel', level: 98, icon: '🚂', color: 'bg-red-500' },
         { name: 'PHP', level: 70, icon: '🐘', color: 'bg-purple-500' },
         { name: 'REST APIs', level: 90, icon: '🔗', color: 'bg-green-500' },
         { name: 'GraphQL', level: 75, icon: '📊', color: 'bg-pink-500' },
@@ -67,14 +67,13 @@ const Skills = () => {
       icon: Cloud,
       description: 'Development operations and deployment tools',
       skills: [
-        { name: 'Git', level: 90, icon: '📝', color: 'bg-orange-500' },
+        { name: 'Git', level: 98, icon: '📝', color: 'bg-orange-500' },
         { name: 'Docker', level: 80, icon: '🐳', color: 'bg-blue-500' },
         { name: 'AWS', level: 75, icon: '☁️', color: 'bg-yellow-500' },
-        { name: 'CI/CD', level: 80, icon: '🔄', color: 'bg-green-500' },
+        { name: 'CI/CD', level: 90, icon: '🔄', color: 'bg-green-500' },
         { name: 'Linux', level: 85, icon: '🐧', color: 'bg-yellow-600' },
         { name: 'Nginx', level: 70, icon: '🟢', color: 'bg-green-600' },
-        { name: 'Kubernetes', level: 65, icon: '⚓', color: 'bg-blue-600' },
-        { name: 'Jenkins', level: 70, icon: '🤖', color: 'bg-red-500' }
+        { name: 'Ubuntu', level: 90, icon: '🔄', color: 'bg-blue-600' },
       ]
     },
     {
@@ -100,12 +99,12 @@ const Skills = () => {
       description: 'Professional and interpersonal skills',
       skills: [
         { name: 'Problem Solving', level: 90, icon: '🧩', color: 'bg-blue-500' },
-        { name: 'Team Collaboration', level: 85, icon: '👥', color: 'bg-green-500' },
-        { name: 'Communication', level: 88, icon: '💬', color: 'bg-purple-500' },
+        { name: 'Team Collaboration', level: 95, icon: '👥', color: 'bg-green-500' },
+        { name: 'Communication', level: 90, icon: '💬', color: 'bg-purple-500' },
         { name: 'Agile/Scrum', level: 85, icon: '🔄', color: 'bg-orange-500' },
-        { name: 'Project Management', level: 80, icon: '📋', color: 'bg-indigo-500' },
+        { name: 'Project Management', level: 90, icon: '📋', color: 'bg-indigo-500' },
         { name: 'Code Review', level: 85, icon: '👀', color: 'bg-cyan-500' },
-        { name: 'Documentation', level: 80, icon: '📚', color: 'bg-gray-500' },
+        { name: 'Documentation', level: 90, icon: '📚', color: 'bg-gray-500' },
         { name: 'Mentoring', level: 75, icon: '🎓', color: 'bg-yellow-500' }
       ]
     }
@@ -139,7 +138,7 @@ const Skills = () => {
             Skills & Technologies
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            A comprehensive overview of my technical skills and expertise across 
+            A comprehensive overview of my technical skills and expertise across
             various technologies and domains.
           </p>
         </motion.div>
@@ -195,7 +194,7 @@ const Skills = () => {
                         </span>
                       </div>
                     </div>
-                    
+
                     {/* Progress Bar */}
                     <div className="w-full bg-gray-200 dark:bg-dark-700 rounded-full h-2">
                       <motion.div
@@ -224,8 +223,8 @@ const Skills = () => {
               Always Learning
             </h3>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Technology is constantly evolving, and I'm committed to staying up-to-date with 
-              the latest trends and best practices. I regularly participate in online courses, 
+              Technology is constantly evolving, and I'm committed to staying up-to-date with
+              the latest trends and best practices. I regularly participate in online courses,
               attend tech conferences, and contribute to open-source projects to expand my skillset.
             </p>
             <div className="mt-6 flex flex-wrap justify-center gap-4">

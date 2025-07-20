@@ -52,7 +52,7 @@ const Contact = () => {
             icon: Phone,
             title: 'Phone',
             value: '+255618575288',
-            link: 'tel:+255618575288'
+            link: ''
         },
         {
             icon: MapPin,
@@ -71,7 +71,7 @@ const Contact = () => {
         },
         {
             icon: GalleryVertical,
-            name: '@mwandu_dev507',
+            name: 'Instagram',
             url: 'https://instagram.com/in/mwandu_dev507',
             color: 'hover:bg-blue-600 hover:text-white'
         },

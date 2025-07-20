@@ -46,7 +46,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold text-primary-600 dark:text-primary-400"
             >
-              DevPortfolio
+              Mwandu|Portfolio
             </motion.div>
           </Link>
 
