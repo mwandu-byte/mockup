@@ -75,7 +75,7 @@ function App() {
       <div className="bg-gray-100 dark:bg-gray-900 min-h-screen text-gray-900 dark:text-gray-100">
         <div className="min-h-screen bg-white dark:bg-dark-900 text-gray-900 dark:text-gray-100">
           <Navbar />
-          <h1 className="text-4xl font-bold text-center my-8">Weather Dashboard</h1>
+          <h1 className="text-6xl font-bold text-center my-16">Weather Dashboard</h1>
           <Search onSearch={handleSearch} />
           <RecentSearches searches={recentSearches} onSearch={handleSearch} />
           {error && <p className="text-red-500 text-center">{error}</p>}
