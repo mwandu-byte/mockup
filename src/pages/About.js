@@ -1,6 +1,6 @@
-import React from 'react';
+// import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, MapPin, Mail, Phone, GraduationCap, Briefcase } from 'lucide-react';
+import { MapPin, Mail, Phone, GraduationCap, Briefcase } from 'lucide-react';
 
 const About = () => {
   const personalInfo = {

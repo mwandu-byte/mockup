@@ -5,7 +5,7 @@ import { Download, Upload, FileText, ArrowRight, Github, Linkedin, Twitter } fro
 
 const Home = () => {
   const [resumeFile, setResumeFile] = useState(null);
-  const [isUploading, setIsUploading] = useState(false);
+  // const [isUploading, setIsUploading] = useState(false);
 
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
