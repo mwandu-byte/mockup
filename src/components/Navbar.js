@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useDarkMode } from '../context/DarkModeContext';
 import { Sun, Moon, Menu, X } from 'lucide-react';
@@ -29,15 +29,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="text-2xl font-bold text-gray-800 dark:text-white"
-            >
-              Weather App
-            </motion.div>
-          </Link>
+        
 
           {/* Dark Mode Toggle & Mobile Menu Button */}
           <div className="flex items-center space-x-4">
